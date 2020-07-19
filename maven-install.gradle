@@ -4,7 +4,7 @@ if (gradle.getStartParameter().getTaskNames().contains("install")) {
     println("> Installing: " + libraryName + " v" + versioning.name)
 }
 
-group = publishedGroupId // Maven Group ID for the artifact
+group = "com.github.chenxumeng" // Maven Group ID for the artifact
 
 task sourcesJar(type: Jar) {
     classifier = 'sources'
