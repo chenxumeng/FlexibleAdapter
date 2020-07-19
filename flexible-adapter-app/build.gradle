@@ -3,7 +3,7 @@ apply plugin: 'eu.davidea.grabver'
 
 versioning {
     major 5
-    minor 1
+    minor 2
     patch 0
 }
 
